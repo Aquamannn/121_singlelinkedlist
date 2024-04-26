@@ -183,6 +183,10 @@ int main() {
 				cout << "pilihan tidak ada" << endl;
 			}
 		}
+		catch (exception e)
+		{
+			cout << "Terjadi Kesalahan" << endl;
+		}
 
-	}
+	} while (pilihan != 5);
 }
