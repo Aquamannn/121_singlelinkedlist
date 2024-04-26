@@ -160,6 +160,14 @@ int main() {
 					break;
 				}
 
+				int min;
+				cout << "Masukan NIM: ";
+				cin >> nim;
+				if (deleteNode(nim)) {
+					cout << "nim: " << nim << "berhasil dihapus" << endl;
+					system("pause");
+					system("cls");
+				}
 			}
 		}
 	}
