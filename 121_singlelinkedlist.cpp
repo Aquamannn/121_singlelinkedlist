@@ -147,10 +147,19 @@ int main() {
 			{
 			case 1:
 				addNode();
-				cout << " Data Baerhasil Ditambahkan" << endl;
+				cout << "Data Baerhasil Ditambahkan" << endl;
 				system("pause");
 				system("cls");
 				break;
+			case 2:
+				if (listEmpty())
+				{
+					cout << "List Kosong" << endl;
+					system("pause");
+					system("cls");
+					break;
+				}
+
 			}
 		}
 	}
